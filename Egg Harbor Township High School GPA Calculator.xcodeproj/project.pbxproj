@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		5F1C729C26B428820060AB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729B26B428820060AB22 /* AppDelegate.swift */; };
 		5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729D26B428820060AB22 /* SceneDelegate.swift */; };
-		5F1C72A026B428820060AB22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729F26B428820060AB22 /* ViewController.swift */; };
+		5F1C72A026B428820060AB22 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729F26B428820060AB22 /* HomeController.swift */; };
 		5F1C72A326B428820060AB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A126B428820060AB22 /* Main.storyboard */; };
 		5F1C72A526B428830060AB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A426B428830060AB22 /* Assets.xcassets */; };
 		5F1C72A826B428830060AB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */; };
 		5F1C72B326B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72B226B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift */; };
 		5F1C72BE26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */; };
+		5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A6226B895C70085C860 /* CalculationCell.swift */; };
+		5F998AA326B8B7C70085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998AA726B8B7C80085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998ABA26B9AAFD0085C860 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AB926B9AAFD0085C860 /* Grade.swift */; };
+		5F998AC226B9AB2F0085C860 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AC126B9AB2F0085C860 /* Utils.swift */; };
+		5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AC626B9B1130085C860 /* ValueSelectionController.swift */; };
+		5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998ACB26B9C8D40085C860 /* Protocols.swift */; };
+		5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AD026B9E73E0085C860 /* SelectionCell.swift */; };
+		5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADF526B43A9F00B1D04E /* SettingController.swift */; };
+		5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADFA26B4756C00B1D04E /* AvgController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +49,7 @@
 		5F1C729826B428820060AB22 /* Egg Harbor Township High School GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Harbor Township High School GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1C729B26B428820060AB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F1C729D26B428820060AB22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F1C729F26B428820060AB22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F1C729F26B428820060AB22 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		5F1C72A226B428820060AB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F1C72A426B428830060AB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F1C72A726B428830060AB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,15 @@
 		5F1C72B926B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Harbor Township High School GPA CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift; sourceTree = "<group>"; };
 		5F1C72BF26B428830060AB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F998A5526B888FF0085C860 /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
+		5F998A6226B895C70085C860 /* CalculationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCell.swift; sourceTree = "<group>"; };
+		5F998AB926B9AAFD0085C860 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		5F998AC126B9AB2F0085C860 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5F998AC626B9B1130085C860 /* ValueSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelectionController.swift; sourceTree = "<group>"; };
+		5F998ACB26B9C8D40085C860 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		5F998AD026B9E73E0085C860 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		5FCDADF526B43A9F00B1D04E /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		5FCDADFA26B4756C00B1D04E /* AvgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +119,12 @@
 		5F1C729A26B428820060AB22 /* Egg Harbor Township High School GPA Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				5FCDADF426B43A7D00B1D04E /* models */,
+				5FCDADF326B43A6200B1D04E /* helper */,
+				5FCDADF226B43A4F00B1D04E /* cells */,
+				5FCDADF126B43A0C00B1D04E /* controllers */,
 				5F1C729B26B428820060AB22 /* AppDelegate.swift */,
 				5F1C729D26B428820060AB22 /* SceneDelegate.swift */,
-				5F1C729F26B428820060AB22 /* ViewController.swift */,
 				5F1C72A126B428820060AB22 /* Main.storyboard */,
 				5F1C72A426B428830060AB22 /* Assets.xcassets */,
 				5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */,
@@ -126,6 +149,44 @@
 				5F1C72BF26B428830060AB22 /* Info.plist */,
 			);
 			path = "Egg Harbor Township High School GPA CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		5FCDADF126B43A0C00B1D04E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C729F26B428820060AB22 /* HomeController.swift */,
+				5FCDADF526B43A9F00B1D04E /* SettingController.swift */,
+				5FCDADFA26B4756C00B1D04E /* AvgController.swift */,
+				5F998A5526B888FF0085C860 /* CalculationController.swift */,
+				5F998AC626B9B1130085C860 /* ValueSelectionController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5FCDADF226B43A4F00B1D04E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F998A6226B895C70085C860 /* CalculationCell.swift */,
+				5F998AD026B9E73E0085C860 /* SelectionCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		5FCDADF326B43A6200B1D04E /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F998AC126B9AB2F0085C860 /* Utils.swift */,
+				5F998ACB26B9C8D40085C860 /* Protocols.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		5FCDADF426B43A7D00B1D04E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F998AB926B9AAFD0085C860 /* Grade.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +319,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1C72A026B428820060AB22 /* ViewController.swift in Sources */,
+				5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */,
+				5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */,
+				5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */,
+				5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */,
+				5F998AC226B9AB2F0085C860 /* Utils.swift in Sources */,
+				5F998ABA26B9AAFD0085C860 /* Grade.swift in Sources */,
+				5F1C72A026B428820060AB22 /* HomeController.swift in Sources */,
 				5F1C729C26B428820060AB22 /* AppDelegate.swift in Sources */,
+				5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */,
 				5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */,
+				5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */,
+				5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1C72B326B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift in Sources */,
+				5F998AA726B8B7C80085C860 /* CalculationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1C72BE26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift in Sources */,
+				5F998AA326B8B7C70085C860 /* CalculationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
