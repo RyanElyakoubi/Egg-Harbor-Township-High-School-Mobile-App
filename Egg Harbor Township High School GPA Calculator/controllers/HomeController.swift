@@ -17,8 +17,8 @@ class HomeController: UIViewController {
         super.viewDidLoad()
         
         self.avg4.addTarget(self, action: #selector(tapForAvg4), for: .touchUpInside)
-        self.avgW.addTarget(self, action: #selector(tapForAvgW), for: .touchUpInside)
-        self.avg100.addTarget(self, action: #selector(tapForAvg100), for: .touchUpInside)
+        //self.avgW.addTarget(self, action: #selector(tapForAvgW), for: .touchUpInside)
+        //self.avg100.addTarget(self, action: #selector(tapForAvg100), for: .touchUpInside)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -32,7 +32,7 @@ class HomeController: UIViewController {
     @objc func tapForAvg4() {
         
         let story = UIStoryboard(name: "Main", bundle: nil)
-        guard let controller = story.instantiateViewController(identifier: "AvgController") as? AvgController else {
+        guard let controller = story.instantiateViewController(identifier: "CalculationController") as? CalculationController else {
         return
         }
         

@@ -1,0 +1,670 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F1C729C26B428820060AB22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729B26B428820060AB22 /* AppDelegate.swift */; };
+		5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729D26B428820060AB22 /* SceneDelegate.swift */; };
+		5F1C72A026B428820060AB22 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C729F26B428820060AB22 /* HomeController.swift */; };
+		5F1C72A326B428820060AB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A126B428820060AB22 /* Main.storyboard */; };
+		5F1C72A526B428830060AB22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A426B428830060AB22 /* Assets.xcassets */; };
+		5F1C72A826B428830060AB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */; };
+		5F1C72B326B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72B226B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift */; };
+		5F1C72BE26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */; };
+		5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A6226B895C70085C860 /* CalculationCell.swift */; };
+		5F998AA326B8B7C70085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998AA726B8B7C80085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
+		5F998ABA26B9AAFD0085C860 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AB926B9AAFD0085C860 /* Grade.swift */; };
+		5F998AC226B9AB2F0085C860 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AC126B9AB2F0085C860 /* Utils.swift */; };
+		5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AC626B9B1130085C860 /* ValueSelectionController.swift */; };
+		5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998ACB26B9C8D40085C860 /* Protocols.swift */; };
+		5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AD026B9E73E0085C860 /* SelectionCell.swift */; };
+		5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADF526B43A9F00B1D04E /* SettingController.swift */; };
+		5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADFA26B4756C00B1D04E /* AvgController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F1C72AF26B428830060AB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1C729026B428820060AB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1C729726B428820060AB22;
+			remoteInfo = "Egg Harbor Township High School GPA Calculator";
+		};
+		5F1C72BA26B428830060AB22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F1C729026B428820060AB22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F1C729726B428820060AB22;
+			remoteInfo = "Egg Harbor Township High School GPA Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F1C729826B428820060AB22 /* Egg Harbor Township High School GPA Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg Harbor Township High School GPA Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1C729B26B428820060AB22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F1C729D26B428820060AB22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F1C729F26B428820060AB22 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		5F1C72A226B428820060AB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F1C72A426B428830060AB22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F1C72A726B428830060AB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F1C72A926B428830060AB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1C72AE26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Harbor Township High School GPA CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1C72B226B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift; sourceTree = "<group>"; };
+		5F1C72B426B428830060AB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F1C72B926B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Harbor Township High School GPA CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift; sourceTree = "<group>"; };
+		5F1C72BF26B428830060AB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F998A5526B888FF0085C860 /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
+		5F998A6226B895C70085C860 /* CalculationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCell.swift; sourceTree = "<group>"; };
+		5F998AB926B9AAFD0085C860 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		5F998AC126B9AB2F0085C860 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5F998AC626B9B1130085C860 /* ValueSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelectionController.swift; sourceTree = "<group>"; };
+		5F998ACB26B9C8D40085C860 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		5F998AD026B9E73E0085C860 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		5FCDADF526B43A9F00B1D04E /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
+		5FCDADFA26B4756C00B1D04E /* AvgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F1C729526B428820060AB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72AB26B428830060AB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72B626B428830060AB22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F1C728F26B428820060AB22 = {
+			isa = PBXGroup;
+			children = (
+				5F1C729A26B428820060AB22 /* Egg Harbor Township High School GPA Calculator */,
+				5F1C72B126B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests */,
+				5F1C72BC26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests */,
+				5F1C729926B428820060AB22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F1C729926B428820060AB22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C729826B428820060AB22 /* Egg Harbor Township High School GPA Calculator.app */,
+				5F1C72AE26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests.xctest */,
+				5F1C72B926B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F1C729A26B428820060AB22 /* Egg Harbor Township High School GPA Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				5FCDADF426B43A7D00B1D04E /* models */,
+				5FCDADF326B43A6200B1D04E /* helper */,
+				5FCDADF226B43A4F00B1D04E /* cells */,
+				5FCDADF126B43A0C00B1D04E /* controllers */,
+				5F1C729B26B428820060AB22 /* AppDelegate.swift */,
+				5F1C729D26B428820060AB22 /* SceneDelegate.swift */,
+				5F1C72A126B428820060AB22 /* Main.storyboard */,
+				5F1C72A426B428830060AB22 /* Assets.xcassets */,
+				5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */,
+				5F1C72A926B428830060AB22 /* Info.plist */,
+			);
+			path = "Egg Harbor Township High School GPA Calculator";
+			sourceTree = "<group>";
+		};
+		5F1C72B126B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C72B226B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift */,
+				5F1C72B426B428830060AB22 /* Info.plist */,
+			);
+			path = "Egg Harbor Township High School GPA CalculatorTests";
+			sourceTree = "<group>";
+		};
+		5F1C72BC26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */,
+				5F1C72BF26B428830060AB22 /* Info.plist */,
+			);
+			path = "Egg Harbor Township High School GPA CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		5FCDADF126B43A0C00B1D04E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F1C729F26B428820060AB22 /* HomeController.swift */,
+				5FCDADF526B43A9F00B1D04E /* SettingController.swift */,
+				5FCDADFA26B4756C00B1D04E /* AvgController.swift */,
+				5F998A5526B888FF0085C860 /* CalculationController.swift */,
+				5F998AC626B9B1130085C860 /* ValueSelectionController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		5FCDADF226B43A4F00B1D04E /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				5F998A6226B895C70085C860 /* CalculationCell.swift */,
+				5F998AD026B9E73E0085C860 /* SelectionCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		5FCDADF326B43A6200B1D04E /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				5F998AC126B9AB2F0085C860 /* Utils.swift */,
+				5F998ACB26B9C8D40085C860 /* Protocols.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		5FCDADF426B43A7D00B1D04E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				5F998AB926B9AAFD0085C860 /* Grade.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F1C729726B428820060AB22 /* Egg Harbor Township High School GPA Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1C72C226B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA Calculator" */;
+			buildPhases = (
+				5F1C729426B428820060AB22 /* Sources */,
+				5F1C729526B428820060AB22 /* Frameworks */,
+				5F1C729626B428820060AB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg Harbor Township High School GPA Calculator";
+			productName = "Egg Harbor Township High School GPA Calculator";
+			productReference = 5F1C729826B428820060AB22 /* Egg Harbor Township High School GPA Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F1C72AD26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1C72C526B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA CalculatorTests" */;
+			buildPhases = (
+				5F1C72AA26B428830060AB22 /* Sources */,
+				5F1C72AB26B428830060AB22 /* Frameworks */,
+				5F1C72AC26B428830060AB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1C72B026B428830060AB22 /* PBXTargetDependency */,
+			);
+			name = "Egg Harbor Township High School GPA CalculatorTests";
+			productName = "Egg Harbor Township High School GPA CalculatorTests";
+			productReference = 5F1C72AE26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F1C72B826B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F1C72C826B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA CalculatorUITests" */;
+			buildPhases = (
+				5F1C72B526B428830060AB22 /* Sources */,
+				5F1C72B626B428830060AB22 /* Frameworks */,
+				5F1C72B726B428830060AB22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F1C72BB26B428830060AB22 /* PBXTargetDependency */,
+			);
+			name = "Egg Harbor Township High School GPA CalculatorUITests";
+			productName = "Egg Harbor Township High School GPA CalculatorUITests";
+			productReference = 5F1C72B926B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F1C729026B428820060AB22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					5F1C729726B428820060AB22 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					5F1C72AD26B428830060AB22 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F1C729726B428820060AB22;
+					};
+					5F1C72B826B428830060AB22 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 5F1C729726B428820060AB22;
+					};
+				};
+			};
+			buildConfigurationList = 5F1C729326B428820060AB22 /* Build configuration list for PBXProject "Egg Harbor Township High School GPA Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F1C728F26B428820060AB22;
+			productRefGroup = 5F1C729926B428820060AB22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F1C729726B428820060AB22 /* Egg Harbor Township High School GPA Calculator */,
+				5F1C72AD26B428830060AB22 /* Egg Harbor Township High School GPA CalculatorTests */,
+				5F1C72B826B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F1C729626B428820060AB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1C72A826B428830060AB22 /* LaunchScreen.storyboard in Resources */,
+				5F1C72A526B428830060AB22 /* Assets.xcassets in Resources */,
+				5F1C72A326B428820060AB22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72AC26B428830060AB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72B726B428830060AB22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F1C729426B428820060AB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */,
+				5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */,
+				5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */,
+				5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */,
+				5F998AC226B9AB2F0085C860 /* Utils.swift in Sources */,
+				5F998ABA26B9AAFD0085C860 /* Grade.swift in Sources */,
+				5F1C72A026B428820060AB22 /* HomeController.swift in Sources */,
+				5F1C729C26B428820060AB22 /* AppDelegate.swift in Sources */,
+				5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */,
+				5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */,
+				5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */,
+				5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72AA26B428830060AB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1C72B326B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift in Sources */,
+				5F998AA726B8B7C80085C860 /* CalculationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F1C72B526B428830060AB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F1C72BE26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift in Sources */,
+				5F998AA326B8B7C70085C860 /* CalculationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F1C72B026B428830060AB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1C729726B428820060AB22 /* Egg Harbor Township High School GPA Calculator */;
+			targetProxy = 5F1C72AF26B428830060AB22 /* PBXContainerItemProxy */;
+		};
+		5F1C72BB26B428830060AB22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F1C729726B428820060AB22 /* Egg Harbor Township High School GPA Calculator */;
+			targetProxy = 5F1C72BA26B428830060AB22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F1C72A126B428820060AB22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1C72A226B428820060AB22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F1C72A726B428830060AB22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F1C72C026B428830060AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F1C72C126B428830060AB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F1C72C326B428830060AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F1C72C426B428830060AB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5F1C72C626B428830060AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Harbor Township High School GPA Calculator.app/Egg Harbor Township High School GPA Calculator";
+			};
+			name = Debug;
+		};
+		5F1C72C726B428830060AB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg Harbor Township High School GPA Calculator.app/Egg Harbor Township High School GPA Calculator";
+			};
+			name = Release;
+		};
+		5F1C72C926B428830060AB22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Egg Harbor Township High School GPA Calculator";
+			};
+			name = Debug;
+		};
+		5F1C72CA26B428830060AB22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HTF32PLZ5Z;
+				INFOPLIST_FILE = "Egg Harbor Township High School GPA CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryan-Elyakoubi.Egg-Harbor-Township-High-School-GPA-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Egg Harbor Township High School GPA Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F1C729326B428820060AB22 /* Build configuration list for PBXProject "Egg Harbor Township High School GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1C72C026B428830060AB22 /* Debug */,
+				5F1C72C126B428830060AB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1C72C226B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1C72C326B428830060AB22 /* Debug */,
+				5F1C72C426B428830060AB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1C72C526B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1C72C626B428830060AB22 /* Debug */,
+				5F1C72C726B428830060AB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F1C72C826B428830060AB22 /* Build configuration list for PBXNativeTarget "Egg Harbor Township High School GPA CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1C72C926B428830060AB22 /* Debug */,
+				5F1C72CA26B428830060AB22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F1C729026B428820060AB22 /* Project object */;
+}

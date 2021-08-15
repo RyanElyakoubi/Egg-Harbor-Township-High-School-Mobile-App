@@ -38,7 +38,7 @@ struct  AVG4 {
     
 }
 
-struct  AVGW {
+struct  AVG5 {
     
     static var A = 5.00
     static var A_M = 4.70
@@ -57,7 +57,7 @@ struct  AVGW {
 
 struct GradeIndicator {
     
-    static var A = "A+"
+    static var A = "A+ "
     static var A_M = "A-"
     static var B_P = "B+"
     static var B = "B"
@@ -69,4 +69,25 @@ struct GradeIndicator {
     static var D = "D"
     static var D_M = "D-"
     static var F = "F"
+}
+
+//CP, Advanced, Honors, AP
+//Honors X 1.1
+// AP X 1.2
+
+enum CourseLevel : String, CaseIterable, Codable {
+    case CP = "CP"
+    case Advanced = "Advanced"
+    case Honors = "Honors"
+    case AP = "AP"
+    
+    var weightedMultiplier : Float {
+        get {
+            switch self {
+            case .Honors: return 1.1
+            case .AP: return 1.2
+            default: return 1
+            }
+        }
+    }
 }

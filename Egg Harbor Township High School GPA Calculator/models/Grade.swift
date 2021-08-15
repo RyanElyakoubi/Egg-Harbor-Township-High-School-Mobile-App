@@ -12,7 +12,15 @@ class Grade: Codable {
     var name : String?
     var checked: Bool = false
     var hour : String?
-    var grade : String?
+    var grade : Float = 0.0
     var point : Float = 0.0
+    var courseLevel : CourseLevel = .CP
+    
+    var showPlus : Bool {
+        get {
+            //return (courseLevel != nil && grade != nil && grade!.count > 0 && name != nil && name!.count > 0)
+            return true
+        }
+    }
 }
 

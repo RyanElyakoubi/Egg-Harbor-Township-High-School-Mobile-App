@@ -16,7 +16,7 @@ class AvgController: UIViewController {
         super.viewDidLoad()
 
         if avgType == 4 {
-            self.navigationItem.title = "Average of 4"
+            self.navigationItem.title = "GPA Calculator"
         }else if avgType == 5 {
             self.navigationItem.title = "Average of 5"
         } else if avgType == 100 {
