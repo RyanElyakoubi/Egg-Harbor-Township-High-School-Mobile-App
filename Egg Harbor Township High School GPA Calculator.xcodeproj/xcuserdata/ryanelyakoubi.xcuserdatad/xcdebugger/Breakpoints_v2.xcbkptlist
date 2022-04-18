@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "76E8054D-0C1F-4A48-B96A-847F5D94343E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "479EF67E-8F99-41F2-86E0-E8CFBEB92576"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Egg Harbor Township High School GPA Calculator/cells/CalculationCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "CalculationCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9ADC157-8442-4F95-ABA2-D14149C7493F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Egg Harbor Township High School GPA Calculator/cells/CalculationCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Egg Harbor Township High School GPA Calculator/controllers/HomeController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "HomeController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - 60ebfa1d802d51c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.avg4.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - 359b8dda8efc5cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.avg4.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - 9cfbbd1aea1f2156"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.avg4.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - 81e7b11aed26dea2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.avg4.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - e47799a26865cc88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Egg_Harbor_Township_High_School_GPA_Calculator.HomeController"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "75979341-FD19-41EB-A119-0EF7DA7A094B - 1c2e8f99738fa740"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Egg_Harbor_Township_High_School_GPA_Calculator.HomeController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Egg_Harbor_Township_High_School_GPA_Calculator.HomeController&gt;"
+                  moduleName = "Egg Harbor Township High School GPA Calculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryanelyakoubi/Desktop/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/Egg%20Harbor%20Township%20High%20School%20GPA%20Calculator/controllers/HomeController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F4CF751-D0BF-4B7A-B903-5C0849EB7C0A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Egg Harbor Township High School GPA Calculator/controllers/CalculationController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "mappedGPA(grade:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
