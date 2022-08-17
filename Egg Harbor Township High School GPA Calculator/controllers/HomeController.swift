@@ -61,4 +61,12 @@ class HomeController: UIViewController {
         controller.avgType = 100
         self.navigationController?.pushViewController(controller, animated: true)
     }
+    
+    
+    @IBAction func sourseOfferingTouched(_ sender: Any) {
+        let t : Discplinaries = DataSource.load("CourseOffering.json")
+        let vc = UIViewControllerAssist.initializeViewControllerWithIdentifier("sbi_TVCDisciplinaries", fromStoryBoard: "Disciplinaries") as! TVCDisciplinaries
+        vc.discplinaries = t
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

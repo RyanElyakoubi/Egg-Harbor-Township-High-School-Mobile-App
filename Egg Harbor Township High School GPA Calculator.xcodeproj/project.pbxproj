@@ -15,6 +15,15 @@
 		5F1C72A826B428830060AB22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */; };
 		5F1C72B326B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72B226B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorTests.swift */; };
 		5F1C72BE26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */; };
+		5F85ECB728A80900007523E7 /* CourseOffering.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F85ECB628A808FF007523E7 /* CourseOffering.json */; };
+		5F85ECBA28A80FF2007523E7 /* Offering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECB828A80FF1007523E7 /* Offering.swift */; };
+		5F85ECBB28A80FF2007523E7 /* Discplinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECB928A80FF1007523E7 /* Discplinary.swift */; };
+		5F85ECBD28A812BE007523E7 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECBC28A812BE007523E7 /* DataSource.swift */; };
+		5F85ECC028A813F9007523E7 /* Disciplinaries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F85ECBF28A813F9007523E7 /* Disciplinaries.storyboard */; };
+		5F85ECC428A8153D007523E7 /* CVCOffering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECC328A8153D007523E7 /* CVCOffering.swift */; };
+		5F85ECC628A815C5007523E7 /* TVCDisciplinaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECC528A815C5007523E7 /* TVCDisciplinaries.swift */; };
+		5F85ECC828A819A8007523E7 /* UIViewControllerAssist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECC728A819A8007523E7 /* UIViewControllerAssist.swift */; };
+		5F85ECCA28A822FC007523E7 /* VCOfferingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F85ECC928A822FC007523E7 /* VCOfferingDetail.swift */; };
 		5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
 		5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A6226B895C70085C860 /* CalculationCell.swift */; };
 		5F998AA326B8B7C70085C860 /* CalculationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998A5526B888FF0085C860 /* CalculationController.swift */; };
@@ -60,6 +69,15 @@
 		5F1C72B926B428830060AB22 /* Egg Harbor Township High School GPA CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg Harbor Township High School GPA CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F1C72BD26B428830060AB22 /* Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_Harbor_Township_High_School_GPA_CalculatorUITests.swift; sourceTree = "<group>"; };
 		5F1C72BF26B428830060AB22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F85ECB628A808FF007523E7 /* CourseOffering.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CourseOffering.json; sourceTree = "<group>"; };
+		5F85ECB828A80FF1007523E7 /* Offering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offering.swift; sourceTree = "<group>"; };
+		5F85ECB928A80FF1007523E7 /* Discplinary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discplinary.swift; sourceTree = "<group>"; };
+		5F85ECBC28A812BE007523E7 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		5F85ECBF28A813F9007523E7 /* Disciplinaries.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Disciplinaries.storyboard; sourceTree = "<group>"; };
+		5F85ECC328A8153D007523E7 /* CVCOffering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVCOffering.swift; sourceTree = "<group>"; };
+		5F85ECC528A815C5007523E7 /* TVCDisciplinaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCDisciplinaries.swift; sourceTree = "<group>"; };
+		5F85ECC728A819A8007523E7 /* UIViewControllerAssist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerAssist.swift; sourceTree = "<group>"; };
+		5F85ECC928A822FC007523E7 /* VCOfferingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCOfferingDetail.swift; sourceTree = "<group>"; };
 		5F998A5526B888FF0085C860 /* CalculationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationController.swift; sourceTree = "<group>"; };
 		5F998A6226B895C70085C860 /* CalculationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationCell.swift; sourceTree = "<group>"; };
 		5F998AB926B9AAFD0085C860 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
@@ -129,6 +147,7 @@
 				5F1C72A426B428830060AB22 /* Assets.xcassets */,
 				5F1C72A626B428830060AB22 /* LaunchScreen.storyboard */,
 				5F1C72A926B428830060AB22 /* Info.plist */,
+				5F85ECBE28A813C4007523E7 /* Discplinaries */,
 			);
 			path = "Egg Harbor Township High School GPA Calculator";
 			sourceTree = "<group>";
@@ -149,6 +168,21 @@
 				5F1C72BF26B428830060AB22 /* Info.plist */,
 			);
 			path = "Egg Harbor Township High School GPA CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		5F85ECBE28A813C4007523E7 /* Discplinaries */ = {
+			isa = PBXGroup;
+			children = (
+				5F85ECB928A80FF1007523E7 /* Discplinary.swift */,
+				5F85ECB828A80FF1007523E7 /* Offering.swift */,
+				5F85ECB628A808FF007523E7 /* CourseOffering.json */,
+				5F85ECBC28A812BE007523E7 /* DataSource.swift */,
+				5F85ECBF28A813F9007523E7 /* Disciplinaries.storyboard */,
+				5F85ECC328A8153D007523E7 /* CVCOffering.swift */,
+				5F85ECC528A815C5007523E7 /* TVCDisciplinaries.swift */,
+				5F85ECC928A822FC007523E7 /* VCOfferingDetail.swift */,
+			);
+			path = Discplinaries;
 			sourceTree = "<group>";
 		};
 		5FCDADF126B43A0C00B1D04E /* controllers */ = {
@@ -177,6 +211,7 @@
 			children = (
 				5F998AC126B9AB2F0085C860 /* Utils.swift */,
 				5F998ACB26B9C8D40085C860 /* Protocols.swift */,
+				5F85ECC728A819A8007523E7 /* UIViewControllerAssist.swift */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -295,6 +330,8 @@
 				5F1C72A826B428830060AB22 /* LaunchScreen.storyboard in Resources */,
 				5F1C72A526B428830060AB22 /* Assets.xcassets in Resources */,
 				5F1C72A326B428820060AB22 /* Main.storyboard in Resources */,
+				5F85ECB728A80900007523E7 /* CourseOffering.json in Resources */,
+				5F85ECC028A813F9007523E7 /* Disciplinaries.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,15 +357,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */,
+				5F85ECCA28A822FC007523E7 /* VCOfferingDetail.swift in Sources */,
+				5F85ECC628A815C5007523E7 /* TVCDisciplinaries.swift in Sources */,
 				5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */,
 				5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */,
+				5F85ECBD28A812BE007523E7 /* DataSource.swift in Sources */,
+				5F85ECC828A819A8007523E7 /* UIViewControllerAssist.swift in Sources */,
 				5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */,
 				5F998AC226B9AB2F0085C860 /* Utils.swift in Sources */,
 				5F998ABA26B9AAFD0085C860 /* Grade.swift in Sources */,
 				5F1C72A026B428820060AB22 /* HomeController.swift in Sources */,
+				5F85ECC428A8153D007523E7 /* CVCOffering.swift in Sources */,
 				5F1C729C26B428820060AB22 /* AppDelegate.swift in Sources */,
 				5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */,
 				5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */,
+				5F85ECBB28A80FF2007523E7 /* Discplinary.swift in Sources */,
+				5F85ECBA28A80FF2007523E7 /* Offering.swift in Sources */,
 				5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */,
 				5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */,
 			);

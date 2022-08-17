@@ -107,7 +107,7 @@
         }
         gpaOutOfHundred = gpa / Float(list.count)
         weightedGpa = weightedGpa / Float(list.count)
-        gpa = mappedGPA(grade: gpa)
+        gpa = mappedGPA(grade: gpaOutOfHundred)
         
         gpaLabel.text = "GPA: " + String(gpa)
         weightedGPALabel.text =  String(format: "Weighted GPA: %.2f", weightedGpa)
