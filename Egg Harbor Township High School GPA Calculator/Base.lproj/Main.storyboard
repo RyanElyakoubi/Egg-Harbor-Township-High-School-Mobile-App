@@ -2509,10 +2509,18 @@ Observation.</string>
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="EAP-dk-JSQ" firstAttribute="top" secondItem="jfW-xQ-HUZ" secondAttribute="top" constant="18.5" id="0bY-LI-AZD"/>
+                                                <constraint firstItem="EAP-dk-JSQ" firstAttribute="top" secondItem="jfW-xQ-HUZ" secondAttribute="top" constant="18.5" id="3qg-GL-7as"/>
+                                                <constraint firstAttribute="bottom" secondItem="EAP-dk-JSQ" secondAttribute="bottom" constant="17.5" id="6ql-6R-52Y"/>
                                                 <constraint firstAttribute="trailing" secondItem="EAP-dk-JSQ" secondAttribute="trailing" constant="8" id="Nlq-X9-bnu"/>
+                                                <constraint firstItem="EAP-dk-JSQ" firstAttribute="leading" secondItem="jfW-xQ-HUZ" secondAttribute="leading" constant="8" id="NrM-Ww-uJz"/>
+                                                <constraint firstAttribute="bottom" secondItem="EAP-dk-JSQ" secondAttribute="bottom" constant="17.5" id="OXg-ew-UR0"/>
                                                 <constraint firstAttribute="bottom" secondItem="EAP-dk-JSQ" secondAttribute="bottom" constant="17.5" id="UqY-8h-biY"/>
                                                 <constraint firstItem="EAP-dk-JSQ" firstAttribute="leading" secondItem="jfW-xQ-HUZ" secondAttribute="leading" constant="8" id="dkd-xT-9NE"/>
                                                 <constraint firstItem="EAP-dk-JSQ" firstAttribute="top" secondItem="jfW-xQ-HUZ" secondAttribute="top" constant="18.5" id="jy5-0c-ezv"/>
+                                                <constraint firstAttribute="trailing" secondItem="EAP-dk-JSQ" secondAttribute="trailing" constant="8" id="lcH-J2-JEI"/>
+                                                <constraint firstAttribute="trailing" secondItem="EAP-dk-JSQ" secondAttribute="trailing" constant="8" id="tgx-V3-o6G"/>
+                                                <constraint firstItem="EAP-dk-JSQ" firstAttribute="leading" secondItem="jfW-xQ-HUZ" secondAttribute="leading" constant="8" id="yVx-4d-sjr"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -2523,10 +2531,12 @@ Observation.</string>
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="261"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2a9-wV-5qb">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2a9-wV-5qb">
                                                     <rect key="frame" x="8" y="11" width="398" height="60"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="97h-Ey-QnQ"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                                     <state key="normal" title="Communications">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2535,10 +2545,12 @@ Observation.</string>
                                                         <segue destination="CN0-y3-YhR" kind="show" id="Avl-XB-FBl"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPy-4L-gKG">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPy-4L-gKG">
                                                     <rect key="frame" x="8" y="101" width="398" height="60"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="0gP-Po-Svv"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
                                                     <state key="normal" title="Aviation">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2547,19 +2559,34 @@ Observation.</string>
                                                         <segue destination="ZKs-75-ufx" kind="show" id="iix-MG-15f"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Usd-mT-9AZ">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLw-S0-JBb">
                                                     <rect key="frame" x="8" y="190" width="398" height="60"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="60" id="anw-U0-XGy"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
-                                                    <state key="normal" title="STREAM(Engineering)">
+                                                    <state key="normal" title="Stream(Engineering)">
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="Pf4-9I-wOG" kind="show" id="56s-pp-TZn"/>
+                                                        <segue destination="Pf4-9I-wOG" kind="show" id="RTs-eD-9xc"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="fLw-S0-JBb" secondAttribute="bottom" constant="11" id="0Vy-Oj-eFK"/>
+                                                <constraint firstItem="oPy-4L-gKG" firstAttribute="top" secondItem="2a9-wV-5qb" secondAttribute="bottom" constant="30" id="3hr-F3-U23"/>
+                                                <constraint firstAttribute="trailing" secondItem="oPy-4L-gKG" secondAttribute="trailing" constant="8" id="9Bg-Mg-gXS"/>
+                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="EJm-kT-hby"/>
+                                                <constraint firstItem="oPy-4L-gKG" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="FOb-8W-3TI"/>
+                                                <constraint firstItem="2a9-wV-5qb" firstAttribute="top" secondItem="N6y-Gu-g8u" secondAttribute="top" constant="11" id="UjP-kz-DOf"/>
+                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="top" secondItem="oPy-4L-gKG" secondAttribute="bottom" constant="29" id="Vcv-cO-6Fs"/>
+                                                <constraint firstAttribute="trailing" secondItem="2a9-wV-5qb" secondAttribute="trailing" constant="8" id="Vu9-MR-ih3"/>
+                                                <constraint firstAttribute="trailing" secondItem="fLw-S0-JBb" secondAttribute="trailing" constant="8" id="dmw-PC-3aU"/>
+                                                <constraint firstItem="2a9-wV-5qb" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="lst-vc-dVy"/>
+                                                <constraint firstItem="oPy-4L-gKG" firstAttribute="top" secondItem="2a9-wV-5qb" secondAttribute="bottom" constant="30" id="pZz-OH-PsY"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -2574,7 +2601,7 @@ Observation.</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FHW-6y-zVX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="328.98550724637681" y="2197.7678571428569"/>
+            <point key="canvasLocation" x="327.536231884058" y="2197.0982142857142"/>
         </scene>
         <!--Communication Academy-->
         <scene sceneID="eBs-nA-DWK">
