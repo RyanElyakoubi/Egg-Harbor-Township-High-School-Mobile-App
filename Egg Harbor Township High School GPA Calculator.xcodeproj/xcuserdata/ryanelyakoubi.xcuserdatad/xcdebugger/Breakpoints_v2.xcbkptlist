@@ -212,7 +212,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "4D0D4A2D-8520-49E2-85BE-F1BF2FCB3753"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Egg Harbor Township High School GPA Calculator/Discplinaries/DataSource.swift"

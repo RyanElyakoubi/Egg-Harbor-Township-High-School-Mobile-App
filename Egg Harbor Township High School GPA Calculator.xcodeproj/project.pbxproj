@@ -33,6 +33,7 @@
 		5F998AC726B9B1130085C860 /* ValueSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AC626B9B1130085C860 /* ValueSelectionController.swift */; };
 		5F998ACC26B9C8D40085C860 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998ACB26B9C8D40085C860 /* Protocols.swift */; };
 		5F998AD126B9E73E0085C860 /* SelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F998AD026B9E73E0085C860 /* SelectionCell.swift */; };
+		5FABD16428B3F49A00166777 /* TVCOfferings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FABD16328B3F49A00166777 /* TVCOfferings.swift */; };
 		5FCDADF626B43A9F00B1D04E /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADF526B43A9F00B1D04E /* SettingController.swift */; };
 		5FCDADFB26B4756C00B1D04E /* AvgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCDADFA26B4756C00B1D04E /* AvgController.swift */; };
 /* End PBXBuildFile section */
@@ -85,6 +86,7 @@
 		5F998AC626B9B1130085C860 /* ValueSelectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSelectionController.swift; sourceTree = "<group>"; };
 		5F998ACB26B9C8D40085C860 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		5F998AD026B9E73E0085C860 /* SelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionCell.swift; sourceTree = "<group>"; };
+		5FABD16328B3F49A00166777 /* TVCOfferings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCOfferings.swift; sourceTree = "<group>"; };
 		5FCDADF526B43A9F00B1D04E /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 		5FCDADFA26B4756C00B1D04E /* AvgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -181,6 +183,7 @@
 				5F85ECC328A8153D007523E7 /* CVCOffering.swift */,
 				5F85ECC528A815C5007523E7 /* TVCDisciplinaries.swift */,
 				5F85ECC928A822FC007523E7 /* VCOfferingDetail.swift */,
+				5FABD16328B3F49A00166777 /* TVCOfferings.swift */,
 			);
 			path = Discplinaries;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				5F1C729E26B428820060AB22 /* SceneDelegate.swift in Sources */,
 				5F85ECBB28A80FF2007523E7 /* Discplinary.swift in Sources */,
 				5F85ECBA28A80FF2007523E7 /* Offering.swift in Sources */,
+				5FABD16428B3F49A00166777 /* TVCOfferings.swift in Sources */,
 				5F998A5626B888FF0085C860 /* CalculationController.swift in Sources */,
 				5F998A6326B895C70085C860 /* CalculationCell.swift in Sources */,
 			);

@@ -21,6 +21,7 @@ class TVCDisciplinaries: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        self.navigationItem.title = "Course Offerings"
     }
 
     // MARK: - Table view data source
@@ -32,17 +33,17 @@ class TVCDisciplinaries: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cri_TCDisciplinaries", for: indexPath) as! TCDisciplinaries
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cri_TCDisciplinaries", for: indexPath)
 
         // Configure the cell...
-        cell.titleLable.text = discplinaries[indexPath.row].title
+        cell.textLabel?.text = discplinaries[indexPath.row].title
 
         return cell
     }
     
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "si_DisciplinariesToOfferings", sender: indexPath)
+        self.performSegue(withIdentifier: "si_TVCDisciplinariesToTVCOfferings", sender: indexPath)
     }
     
 
@@ -91,7 +92,10 @@ class TVCDisciplinaries: UITableViewController {
         if let vc = segue.destination as? CVCOffering, let ip = sender as? IndexPath {
             vc.offerings = self.discplinaries[ip.row].offerings
         }
+        if let vc = segue.destination as? TVCOfferings, let ip = sender as? IndexPath {
+            vc.offerings = self.discplinaries[ip.row].offerings
+            vc.navigationItem.title = self.discplinaries[ip.row].title
+        }
     }
-    
-
 }
+
