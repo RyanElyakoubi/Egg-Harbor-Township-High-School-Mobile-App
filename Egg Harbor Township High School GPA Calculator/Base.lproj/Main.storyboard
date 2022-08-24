@@ -19,9 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="v08-ZV-uPk">
-                                <rect key="frame" x="0.0" y="104" width="414" height="335"/>
+                                <rect key="frame" x="0.0" y="104" width="414" height="300"/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="999" constant="335" id="AgH-p4-L2x"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="Peq-Eg-xOt"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="300" id="RAL-MG-VAe"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPH-pL-sR2">
@@ -63,22 +65,35 @@
                                     <action selector="sourseOfferingTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eab-AR-v6s"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATN-4P-T60">
+                                <rect key="frame" x="30" y="418" width="354" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="21"/>
+                                <state key="normal" title="Created by: Ryan Elyakoubi">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="v08-ZV-uPk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="6iV-3o-qv3"/>
+                            <constraint firstItem="ATN-4P-T60" firstAttribute="top" secondItem="v08-ZV-uPk" secondAttribute="bottom" constant="14" id="7mh-hk-JEA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="p9V-Nk-QCj" secondAttribute="bottom" constant="32" id="Cea-Dc-2d8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OPH-pL-sR2" secondAttribute="trailing" constant="30" id="In9-zb-sVe"/>
+                            <constraint firstItem="8v4-IF-3Tq" firstAttribute="top" secondItem="ATN-4P-T60" secondAttribute="bottom" constant="34" id="MUt-Hl-VLE"/>
                             <constraint firstItem="v08-ZV-uPk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Q09-vb-MVA"/>
                             <constraint firstItem="OPH-pL-sR2" firstAttribute="top" secondItem="8v4-IF-3Tq" secondAttribute="bottom" constant="24" id="Sjd-Z7-HTD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p9V-Nk-QCj" secondAttribute="trailing" constant="30" id="Vcb-JJ-B54"/>
+                            <constraint firstItem="ATN-4P-T60" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Vul-1c-1kz"/>
                             <constraint firstItem="v08-ZV-uPk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bst-pi-Nd0"/>
                             <constraint firstItem="OPH-pL-sR2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="eEh-PY-DWu"/>
                             <constraint firstItem="p9V-Nk-QCj" firstAttribute="top" secondItem="OPH-pL-sR2" secondAttribute="bottom" constant="24" id="fZE-1w-ZxR"/>
                             <constraint firstItem="p9V-Nk-QCj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="i11-Sa-Vf0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8v4-IF-3Tq" secondAttribute="trailing" constant="30" id="j0y-1B-3RE"/>
                             <constraint firstItem="8v4-IF-3Tq" firstAttribute="top" relation="greaterThanOrEqual" secondItem="v08-ZV-uPk" secondAttribute="bottom" constant="16" id="m2t-ja-oA5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ATN-4P-T60" secondAttribute="trailing" constant="30" id="m8M-8C-gPb"/>
                             <constraint firstItem="8v4-IF-3Tq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="mwq-av-yib"/>
                         </constraints>
                     </view>
@@ -1737,18 +1752,6 @@ In this Introduction to Flight Course, students will begin with an exploration o
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZn-yi-Jwj">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATN-4P-T60">
-                                        <rect key="frame" x="8" y="309" width="398" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
-                                        <state key="normal" title="Medical Science ">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="OfU-y9-VNH" kind="show" id="rpD-WG-z0r"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVo-ab-eE8">
                                         <rect key="frame" x="8" y="406" width="398" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1903,7 +1906,7 @@ In this Introduction to Flight Course, students will begin with an exploration o
             <objects>
                 <viewController id="OfU-y9-VNH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6NI-PO-b0n">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n2r-j8-cO8">
@@ -2249,7 +2252,7 @@ Observation.</string>
                                         <rect key="frame" x="27" y="8" width="339" height="230"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <mutableString key="text">The Academy of Law and Business gives students the opportunity to pursue classes of interest while they are in high school. The EHTHS students has the unique opportunity to participate in this community where they have access to experienced teachers who deliver instruction in the fields that they are passionate about.  The academy gives students the opportunities to determine if the Law and Business fields are avenues that they wish to pursue while they are in high school, rather than waiting until they enter college.</mutableString>
+                                        <string key="text">The Academy of Law and Business gives students the opportunity to pursue classes of interest while they are in high school. The EHTHS students has the unique opportunity to participate in this community where they have access to experienced teachers who deliver instruction in the fields that they are passionate about.  The academy gives students the opportunities to determine if the Law and Business fields are avenues that they wish to pursue while they are in high school, rather than waiting until they enter college.</string>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2329,14 +2332,14 @@ Observation.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="9th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="app-Fx-B6D">
-                                                    <rect key="frame" x="20" y="11" width="33" height="26.5"/>
+                                                    <rect key="frame" x="20" y="12.5" width="29" height="23"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HN Biology &amp; MSA Science 2.0 STEM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="H81-IM-89r">
-                                                    <rect key="frame" x="20" y="37.5" width="195" height="13.5"/>
+                                                    <rect key="frame" x="20" y="36" width="195" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <nil key="textColor"/>
@@ -2353,14 +2356,14 @@ Observation.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="10th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qKy-O2-KQO">
-                                                    <rect key="frame" x="20" y="11" width="42.5" height="26.5"/>
+                                                    <rect key="frame" x="20" y="12.5" width="37" height="23"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HN Chemistry &amp; Genetics/Neuroscience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pmX-Ih-pUg">
-                                                    <rect key="frame" x="20" y="37.5" width="209" height="13.5"/>
+                                                    <rect key="frame" x="20" y="36" width="209" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <nil key="textColor"/>
@@ -2377,14 +2380,14 @@ Observation.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="11th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Sp-E5-gHf">
-                                                    <rect key="frame" x="20" y="11" width="39" height="26.5"/>
+                                                    <rect key="frame" x="20" y="12.5" width="34" height="23"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HN/AP Science Class &amp; Anatomy/Physiology " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tl1-Ks-2e5">
-                                                    <rect key="frame" x="20" y="37.5" width="233.5" height="13.5"/>
+                                                    <rect key="frame" x="20" y="36" width="233.5" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <nil key="textColor"/>
@@ -2401,14 +2404,14 @@ Observation.</string>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="12th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="T61-1e-f82">
-                                                    <rect key="frame" x="20" y="11" width="41.5" height="26.5"/>
+                                                    <rect key="frame" x="20" y="12.5" width="36.5" height="23"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <color key="textColor" systemColor="systemBlueColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="HN/AP Science Class &amp; Forsenic Science" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="AmZ-en-dLr">
-                                                    <rect key="frame" x="20" y="37.5" width="214" height="13.5"/>
+                                                    <rect key="frame" x="20" y="36" width="214" height="13.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <nil key="textColor"/>
@@ -2559,9 +2562,9 @@ Observation.</string>
                                                         <segue destination="ZKs-75-ufx" kind="show" id="iix-MG-15f"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLw-S0-JBb">
-                                                    <rect key="frame" x="8" y="190" width="398" height="60"/>
-                                                    <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLw-S0-JBb">
+                                                    <rect key="frame" x="10" y="190" width="398" height="60"/>
+                                                    <color key="backgroundColor" systemColor="systemBrownColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="60" id="anw-U0-XGy"/>
                                                     </constraints>
@@ -2570,20 +2573,20 @@ Observation.</string>
                                                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="Pf4-9I-wOG" kind="show" id="RTs-eD-9xc"/>
+                                                        <segue destination="Pf4-9I-wOG" kind="show" id="KxP-ta-uaU"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="fLw-S0-JBb" secondAttribute="bottom" constant="11" id="0Vy-Oj-eFK"/>
                                                 <constraint firstItem="oPy-4L-gKG" firstAttribute="top" secondItem="2a9-wV-5qb" secondAttribute="bottom" constant="30" id="3hr-F3-U23"/>
+                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="6bA-du-xJx"/>
                                                 <constraint firstAttribute="trailing" secondItem="oPy-4L-gKG" secondAttribute="trailing" constant="8" id="9Bg-Mg-gXS"/>
-                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="EJm-kT-hby"/>
+                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="top" secondItem="oPy-4L-gKG" secondAttribute="bottom" constant="29" id="CvB-lw-8DQ"/>
                                                 <constraint firstItem="oPy-4L-gKG" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="FOb-8W-3TI"/>
                                                 <constraint firstItem="2a9-wV-5qb" firstAttribute="top" secondItem="N6y-Gu-g8u" secondAttribute="top" constant="11" id="UjP-kz-DOf"/>
-                                                <constraint firstItem="fLw-S0-JBb" firstAttribute="top" secondItem="oPy-4L-gKG" secondAttribute="bottom" constant="29" id="Vcv-cO-6Fs"/>
                                                 <constraint firstAttribute="trailing" secondItem="2a9-wV-5qb" secondAttribute="trailing" constant="8" id="Vu9-MR-ih3"/>
-                                                <constraint firstAttribute="trailing" secondItem="fLw-S0-JBb" secondAttribute="trailing" constant="8" id="dmw-PC-3aU"/>
+                                                <constraint firstAttribute="bottom" secondItem="fLw-S0-JBb" secondAttribute="bottom" constant="11" id="WNm-h1-5Mn"/>
+                                                <constraint firstAttribute="trailing" secondItem="fLw-S0-JBb" secondAttribute="trailing" constant="8" id="gT7-4C-lCM"/>
                                                 <constraint firstItem="2a9-wV-5qb" firstAttribute="leading" secondItem="N6y-Gu-g8u" secondAttribute="leading" constant="8" id="lst-vc-dVy"/>
                                                 <constraint firstItem="oPy-4L-gKG" firstAttribute="top" secondItem="2a9-wV-5qb" secondAttribute="bottom" constant="30" id="pZz-OH-PsY"/>
                                             </constraints>
@@ -14667,7 +14670,7 @@ CHILD DEVELOPMENT III (HN)</string>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sQP-UJ-2ar">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="144"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">The Academy of Law and Business gives students the opportunity to pursue classes of interest while they are in high school. The EHTHS students has the unique opportunity to participate in this community where they have access to experienced teachers who deliver instruction in the fields that they are passionate about.  The academy gives students the opportunities to determine if the Law and Business fields are avenues that they wish to pursue while they are in high school, rather than waiting until they enter college.</mutableString>
+                                                    <string key="text">The Academy of Law and Business gives students the opportunity to pursue classes of interest while they are in high school. The EHTHS students has the unique opportunity to participate in this community where they have access to experienced teachers who deliver instruction in the fields that they are passionate about.  The academy gives students the opportunities to determine if the Law and Business fields are avenues that they wish to pursue while they are in high school, rather than waiting until they enter college.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -14826,7 +14829,7 @@ CHILD DEVELOPMENT III (HN)</string>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="82G-ha-PNQ">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="187"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text"> Offer students a unique and specialized program that prepares them for 21st century college and careers.  Help students develop an understanding of video production, broadcast journalism, and writing for mass media communications. Open students’ minds to a variety of global career opportunities in communications. Develop productive members of society who understand communications in writing, broadcast, and video. Provide opportunities to apply what students learn in practical applications. Provide professional experience opportunities to students in mass media production. Create a community of life-long learners that take initiative in their community and educational endeavors</mutableString>
+                                                    <string key="text"> Offer students a unique and specialized program that prepares them for 21st century college and careers.  Help students develop an understanding of video production, broadcast journalism, and writing for mass media communications. Open students’ minds to a variety of global career opportunities in communications. Develop productive members of society who understand communications in writing, broadcast, and video. Provide opportunities to apply what students learn in practical applications. Provide professional experience opportunities to students in mass media production. Create a community of life-long learners that take initiative in their community and educational endeavors</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -15144,7 +15147,7 @@ CHILD DEVELOPMENT III (HN)</string>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qcn-CG-zEL">
                                                     <rect key="frame" x="20" y="0.0" width="374" height="303"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <mutableString key="text">The STREAM tracks will give students an opportunity to explore three different concentrations of Science, Technology, Engineering, and Mathematics content, while incorporating Arts and Reading (STREAM) including, Networking and Telecommunications, Computer Programming, and Aviation and Engineering. The sequence recommendation will help to ensure completion of the required courses in the STREAM track of interest. It is strongly recommended that course be taken in the recommended sequence as some courses will require prerequisites of introductory classes. The STREAM tracks will each culminate with a capstone activity. The capstone is not a required course for the students to take, but it is a recommended course that is designed to give students can extension of the content covered in the STREAM track while giving them an in-depth research opportunity in the STREAM track of interest. The Capstone course is an optional independent study course which will allow the student to work both independently of and collaboratively with a content area teacher.</mutableString>
+                                                    <string key="text">The STREAM tracks will give students an opportunity to explore three different concentrations of Science, Technology, Engineering, and Mathematics content, while incorporating Arts and Reading (STREAM) including, Networking and Telecommunications, Computer Programming, and Aviation and Engineering. The sequence recommendation will help to ensure completion of the required courses in the STREAM track of interest. It is strongly recommended that course be taken in the recommended sequence as some courses will require prerequisites of introductory classes. The STREAM tracks will each culminate with a capstone activity. The capstone is not a required course for the students to take, but it is a recommended course that is designed to give students can extension of the content covered in the STREAM track while giving them an in-depth research opportunity in the STREAM track of interest. The Capstone course is an optional independent study course which will allow the student to work both independently of and collaboratively with a content area teacher.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -15289,7 +15292,7 @@ CHILD DEVELOPMENT III (HN)</string>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
         <image name="COMM" width="794" height="1127"/>
-        <image name="Image-1" width="750" height="900"/>
+        <image name="Image-1" width="512" height="512"/>
         <image name="gearshape.2" catalog="system" width="128" height="100"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <namedColor name="AccentColor">

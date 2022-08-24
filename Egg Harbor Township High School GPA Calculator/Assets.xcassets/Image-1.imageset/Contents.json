@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "District Crest-1024.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "District Crest-1025.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "District Crest-1026.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

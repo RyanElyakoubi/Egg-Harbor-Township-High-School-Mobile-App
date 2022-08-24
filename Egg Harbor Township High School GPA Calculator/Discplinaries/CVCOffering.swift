@@ -65,6 +65,7 @@ class CVCOffering: UICollectionViewController {
         self.performSegue(withIdentifier: "sbi_CVCOffering", sender: indexPath)
     }
 
+   
     // MARK: UICollectionViewDelegate
 
     /*
