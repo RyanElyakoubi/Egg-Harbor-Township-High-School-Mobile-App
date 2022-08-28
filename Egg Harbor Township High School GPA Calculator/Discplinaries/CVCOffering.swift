@@ -64,7 +64,7 @@ class CVCOffering: UICollectionViewController {
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: "sbi_CVCOffering", sender: indexPath)
     }
-
+//override
    
     // MARK: UICollectionViewDelegate
 

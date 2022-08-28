@@ -11,3 +11,5 @@ struct Offering: Codable {
         case offeringDescription = "description"
     }
 }
+
+
