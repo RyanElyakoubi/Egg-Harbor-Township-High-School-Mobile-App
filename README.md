@@ -1,0 +1,4 @@
+# Egg-Harbor-Township-High-School-Mobile-App
+Launched on App Store (Licensed Apple Developer)1000+ downloads.
+
+My user interface system accounts for hundreds of classes and programs within the school, students now can use a convenient table of contents to pick their classes. Each class has an in-depth description and an iteration of the requirements for each class, making it very effective for students and administration. My mobile app also calculates three different GPA’s for students allowing them to get the information they need to send to colleges and to rank their GPAs against the averages of the colleges they are aiming for. To increase the awareness of educational paths at EHTHS I will be marketing EHTHS's academies within the app as well.My app will be used for generations to come at my HS.
